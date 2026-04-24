@@ -1,5 +1,5 @@
 # ============================================================================
-# depCenR: depEst.aug — Augmented Bagging-MME for small samples
+# depCenR: depEst.aug — Augmented Bagging-MME for small samples. Under dev.!!
 # ============================================================================
 
 #' Augmented dependence estimation for small samples via diffusion models
