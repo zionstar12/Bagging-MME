@@ -10,8 +10,8 @@
 
 **depCenR** implements the **Bagging-MME** (Bootstrap-Aggregated Method-of-Moments Estimation) framework for estimating correlation and marginal distributions from **dependently censored survival data**. It provides tools for:
   
-- Testing whether dependence exists between a survival time *T* and a censoring time *C* (i.e., Kendall's τ = 0 vs. τ > 0).
-- Estimating the strength of that dependence (Kendall's τ with bootstrap 95% CIs).
+- Test whether dependence exists between a survival time *T* and a censoring time *C* (i.e., Kendall's τ = 0 vs. τ > 0).
+- Estimate the strength of that dependence (Kendall's τ with bootstrap 95% CIs).
 - Augmented estimation for small samples via diffusion-model–based data augmentation.
 > *(Under development)*
 
