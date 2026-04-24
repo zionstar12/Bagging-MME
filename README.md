@@ -22,7 +22,7 @@ The methodology is described in:
 
 ## Installation
 
-You can install the development version of **depCenR** from GitHub:
+The development version of **depCenR** will be installable from GitHub as:
 
 ```r
 # install.packages("devtools")
@@ -35,7 +35,7 @@ devtools::install_github("zionstar12/Bagging-MME")
 |---|---|
 | `depTest()` | Test for the presence of dependence between *T* and *C* (H₀: τ = 0 vs. H₁: τ > 0) via the Bagging-MME procedure. |
 | `depEst()` | Estimate Kendall's τ with bootstrap 95% confidence intervals using the full Bagging-MME algorithm. |
-| `depEst.aug()` | Augmented estimation for small samples: leverages diffusion-model–generated synthetic data to improve estimation of low-to-moderate correlations (τ ≈ 0.3–0.5).*(Under development)* |
+| `depEst.aug()` | Augmented estimation for small samples: leverages diffusion-model–generated synthetic data to improve estimation of low-to-moderate correlations (τ ≈ 0.3–0.5). *(Under development)* |
 
 ## Quick Start
 
