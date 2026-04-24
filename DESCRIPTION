@@ -1,0 +1,39 @@
+Package: depCenR
+Title: Bagging-MME for Dependently Censored Survival Data
+Version: 0.1.0
+Authors@R: 
+    person(given = "Hyun-Soo",
+           family = "Zhang",
+           role = c("aut", "cre"),
+           email = "hszhang@yuhs.ac",
+           comment = c(ORCID = "0000-0002-4973-9792"))
+Description: Implements the Bootstrap-Aggregated Method-of-Moments Estimation
+    (Bagging-MME) framework for estimating correlation (Kendall's tau) and
+    marginal distributions from dependently censored survival data. Provides
+    functions for dependence testing ('depTest'), dependence estimation with
+    confidence intervals ('depEst'), and augmented estimation for small samples
+    using diffusion-model-based data augmentation ('depEst.aug'). The underlying
+    model assumes bivariate generalized-gamma marginals linked by a Clayton
+    copula, with global optimization performed via Generalized Simulated
+    Annealing (GenSA) across partitioned dependence-parameter sub-ranges.
+License: GPL (>= 3)
+URL: https://github.com/zionstar12/Bagging-MME
+BugReports: https://github.com/zionstar12/Bagging-MME/issues
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    copula,
+    GenSA,
+    flexsurv,
+    parallel,
+    doParallel,
+    foreach,
+    compound.Cox
+Suggests:
+    moments,
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3
